@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgb(253, 249, 242);
+  box-shadow: darkgray 0px 0px 2px;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.navLink {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.navLink:hover {
+  background-color: rgb(78, 22, 221);
+  color: white;
+}
+
+.active {
+  color: rgb(78, 22, 221);
+}

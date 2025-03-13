@@ -1,0 +1,16 @@
+.listUl {
+  padding: 20px;
+  margin: 0;
+}
+.list {
+  display: flex;
+}
+
+.movieItem {
+  transition: transform 0.3s;
+  margin-bottom: 10px;
+}
+
+.movieItem:hover {
+  transform: scale(1.03);
+}
