@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(45, 56, 182);
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px 3px;
+}
+
+.formField {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 4px;
+  fill: white;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+}
+
+.searchField {
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
